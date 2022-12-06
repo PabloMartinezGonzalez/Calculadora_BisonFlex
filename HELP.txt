@@ -1,0 +1,84 @@
+
+----------------------------------
+----------CALCULADORA-------------
+
+Este programa consiste en una calculadora científica que permite al usuario realizar diversas operaciones matemáticas, tanto básicas, como funciones complejas. Su funcionamioento es mediante la entrada de expresiones en la terminal, o bien cargando archivos que contengan operaciones, las cuales se realizarán. Además, se permiten definicion de variables y su utilización a lo largo de la ejecución, como tambien el uso de valores de distintas constantes. 
+A continuación, se muestran als características y especificaciones para facilitar el uso de la calculadora.
+
+
+
+----ARGUMENTOS----
+
+Los argumentos permitidos en el comando de ejecución son los siguientes:
+	-help 		Imprime esta ayuda.
+	fichero		Se puede introducir la ruta de un fichero que contenga operaciones matemáticas para ejecutarlas
+
+
+
+----USO DE LA CALCULADORA----
+
+La calculadora permitirá al ususairo introducir operaciones matemáticas, estas se ejecutaran cuando el usuario pulse la tecla enter. Se permite el uso de parentesis y todo tipo de formatos de expresiones matemáticas, como el uso de funciones complejas. 
+En el caso que se quiera imprimir el resultado de la operación, se deberá introducir un ';' al final de la misma, y posteriormente pulsar enter. Esta opcion se puede deshabulitar con el comando "echo" explicado a continuación. 
+
+
+
+----COMANDOS DE LA CALCULADORA----
+
+A continuación, se muestran los comandos para el manejo de la calculadora, los cuales se introducirán como funciones matemáticas durante el uso del programa: 
+	"quit" 		Termina la ejecución del programa calculadora, borrando las variables presentes
+	"workspace"	Muestra todas las variables declaradas y sus valores correspondientes
+	"clean"		Borra las variables almacenadas y sus valores.
+	"tablaS		Muestra toda la tabla de símbolos
+	"help"		Muestra la ayuda.
+	"load(fichero)"	Carga y ejecuta el archivo que se introduzca en el apartado de "fichero" ejecutando sus operaciones maetemáticas 
+	"echo"		Activa y desactiva alternadamente la opción de imprimir el resultado de la operación con el uso de ';'. 
+
+
+
+----OPERACIONES DISPONIBLES----
+
+Las operaciones matemáticas básicas disponibles son: 
+	=			Asignación
+	+			Suma
+	-			Resta
+	*			Multiplicación
+	/			División
+	%			Módulo
+	^			Potencia
+	+=			Asignación con suma
+	-=			Asignación con resta	
+
+
+
+----CONSTANTES----
+
+Para esta calculadora, se han definido las siguientes constantes:
+	pi = 3.14159265359
+	e = 2.71828182846
+
+
+
+----FUNCIONES MATEMÁTICAS----
+
+Con la calculadora, se podrán realizar las siguientes funciones matemáticas, introduciendo un valor o expresion en los huecos donde aparezca la letra x: 
+	sin(x) 		Calcula el seno en radianes.
+	cos(x) 		Calcula el coseno en radianes.
+	tan(x) 		Calcula la tangente en radianes.
+	asin(x)		Calcula el arcoseno en radianes.
+	acos()		Calcula el arcocoseno en radianes.
+	atan(x)		Calcula la arcotangente en radianes
+	sinh(x)		Calcula el seno hiperbólico en radianes.
+	cosh(x)		Calcula el coseno hiperbólico en radianes.
+	tanh(x)		Calcula la tangente hiperbólica en radianes.
+	log10(x)		Calcula el logaritmo en base 10.
+	ln(x)			Calcula el logaritmo neperiano.
+	exp(x)		Calcula la constante 'e' elevada al número argumento.
+	sqrt(x)		Calcula la raíz cuadrada.
+	ceil(x)		Devuelve un entero redondeado hacia arriba.
+	floor(x)		Devuelve un entero redondeado hacia abajo.
+	fabs(x)		Cacula el valor absoluto.
+	pow(x,x)		Calcula la potencia del primer número elevado al segundo.
+	fmod(x,x)		Calcula el módulo del primer numero por el segundo.
+
+-----------------------------------------------
+
